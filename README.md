@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+<h1>
+  <img src="https://raw.githubusercontent.com/JohnReyGimenez/turtly-platform/main/assets/images/Logo.png" width="72" style="display: inline-block; vertical-align: middle;" />
+  <span style="vertical-align: middle;">Turtly Kits</span>
+</h1>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+**Turtly** is an educational platform that combines a visual programming app with easy-to-assemble robotics kits. Designed for lower primary students and private schools, it helps young learners explore their creativity, problem-solving, and engineering through play.
 
-1. Install dependencies
+## Project Goals
 
-   ```bash
-   npm install
-   ```
+- Teach basic programming to kids using a block-based app (like Scratch)
+- Support a low-cost, snap-together robot kit controlled via Bluetooth
+- Create a seamless web and mobile experience
 
-2. Start the app
+## Features (Planned)
 
-   ```bash
-   npx expo start
-   ```
+- Drag-and-drop block coding interface
+- Bluetooth robot control with Arduino
+- Save & load projects in the cloud
+- Teacher dashboard for managing student progress
+- Downloadable learning materials
 
-In the output, you'll find options to open the app in a
+## Tech Stack (Planned)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Frontend**: React (Web), React Native or Expo (Mobile)
+- **Backend**: Ruby on Rails API
+- **Hardware**: Arduino + Bluetooth + 3D-printed robot kit
+- **Database**: PostgreSQL
+- **Deployment**: Self-hosted on VPS
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Status
 
-## Get a fresh project
+🟢 Planning & Design  
+🔄 Frontend design in progress (sign-up form, dashboard)
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+> This project is being built by John Rey Gimenez, as part of a research initiative for teaching robotics and coding to young lower primary students.
